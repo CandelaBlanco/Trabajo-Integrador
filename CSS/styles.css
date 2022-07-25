@@ -1,0 +1,255 @@
+body{
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: url("../assets/fondo.jpg");
+    background-size:cover ;
+}
+
+
+/* header*/
+header{
+    display: flex;
+    height: 20vh;
+    background-color: rgb(236, 154, 199);
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.logo-titulo{
+        
+        display: flex;
+        align-items: center;
+        
+        
+    }
+    .logo{
+        width:30px ;
+        
+        
+    }
+    
+    h1{
+        font-family: 'Cinzel', serif;
+    }
+
+/*Nav*/
+nav ul li{
+display: inline;
+padding: 2rem;
+text-align: center;
+list-style-type: none;
+font-family: 'Cinzel', serif;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li :hover{
+    
+    color: white;
+}
+
+
+
+/*  cuerpo index*/
+section{
+    display: flex;
+flex-direction:column ;
+margin-top: 8px;
+row-gap: 8px;
+}
+
+section img{
+    float: left;
+    margin: 5px;
+    overflow:auto;
+    border-radius: 10px;
+   
+    
+}
+
+
+
+article{
+    background-color: rgb(174, 240, 168);
+    border-radius: 10px;
+    height: 200%;
+    padding-bottom: 12px
+    
+}
+
+.titulochico{
+    font-family: 'Cormorant SC', serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+  
+    
+    
+}
+/*  pie index*/
+footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(236, 154, 199);
+    height: 100px;
+    justify-content: center;
+}
+
+
+
+
+footer:hover{
+    color: white;
+}
+
+/*TIPO DE FLORES*/
+.container2{
+    background-color: rgb(174, 240, 168);
+}
+.cards{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    min-width: 200px;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;     
+}
+
+.cards p{
+    background: rgba(0, 0, 0, 4);
+    opacity: 0;
+    transition: .5s;
+}
+
+.cards :hover p{
+opacity: 0.7;
+}
+
+.card1{
+    background-image: url("../assets/rosa.jpg");
+    background-size: cover;
+    color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card2{
+    background-image: url("../assets/jazmin.jpg");
+    background-size: cover;
+    color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card3{
+    background-image: url("../assets/margarita.jpg");
+    background-size: cover;
+    color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card4{
+    background-image: url("../assets/novia.jpg");
+    background-size: cover;
+    color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card5{
+    background-image: url("../assets/lunar.jpg");
+    background-size: cover;
+    color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card6{
+    background-image: url("../assets/clavel.jpg");
+    background-size: cover;
+    color: white;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/*CONTACTO*/
+.container3{
+    background-image: url("../assets/fondo.jpg") ;
+    background-size: cover;
+    
+    
+   
+}
+
+.formulario{
+    font-family: 'Cinzel', serif;
+    align-items: center;
+    height: 98vh;
+    margin: 50px;
+    background-color: black;
+    opacity: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+
+input{
+width: 300px;
+height: 20px;
+}
+
+button{
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+/**/
+
+@media only screen and (max-width: 576px){
+    header{
+        height: 30vh;
+        flex-direction: row;
+    }
+
+     .logo{
+        width:10px ;   
+    }
+    
+    
+    nav ul li{
+        padding: 1rem;
+    }
+
+    .formulario{
+        height: 100vh;
+    }
+}
+
+
+
+
+
